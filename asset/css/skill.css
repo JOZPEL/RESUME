@@ -1,0 +1,196 @@
+.skill{
+    background-color: black;
+    opacity: 0.80;
+
+}
+
+.sright{
+    float: right;
+}
+
+.container {
+    width: 500pt;
+    text-align: center;
+}
+
+.progress {
+    padding: 6px;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+   
+.progress-bar1 {
+    height: 30px;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    transition: 0.4s linear;
+    transition-property: width, background-color;
+}
+   
+.progress-moved .progress-bar1 {
+    width: 80%;
+      background-color: #ffffff;
+    animation: progressAnimation1 6s;
+}
+   
+@keyframes progressAnimation1 {
+    0% {
+      width: 5%;
+      background-color: #08ffc9;
+    }
+    100% {
+      width: 80%;
+      background-color: #ffffff;
+    }
+}
+
+.progress-bar2 {
+    height: 30px;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    transition: 0.4s linear;
+    transition-property: width, background-color;
+}
+   
+.progress-moved .progress-bar2 {
+    width: 70%;
+      background-color: #ffffff;
+    animation: progressAnimation2 6s;
+}
+   
+@keyframes progressAnimation2 {
+    0% {
+      width: 5%;
+      background-color: #0084ff;
+    }
+    100% {
+      width: 70%;
+      background-color: #ffffff;
+    }
+}
+
+.progress-bar3 {
+    height: 30px;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 0, 0, 0.05));
+    transition: 0.4s linear;
+    transition-property: width, background-color;
+}
+   
+.progress-moved .progress-bar3 {
+    width: 60%;
+      background-color: #ffffff;
+    animation: progressAnimation3 6s;
+}
+   
+@keyframes progressAnimation3 {
+    0% {
+      width: 5%;
+      background-color: #c508ff;
+    }
+    100% {
+      width: 60%;
+      background-color: #ffffff;
+    }
+}
+
+.progress-bar4 {
+    height: 30px;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    transition: 0.4s linear;
+    transition-property: width, background-color;
+}
+   
+.progress-moved .progress-bar4 {
+    width: 80%;
+      background-color: #ffffff;
+    animation: progressAnimation4 6s;
+}
+   
+@keyframes progressAnimation4 {
+    0% {
+      width: 5%;
+      background-color: #ff0898;
+    }
+    100% {
+      width: 80%;
+      background-color: #ffffff;
+    }
+}
+
+.progress-bar5 {
+  height: 30px;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+ 
+.progress-moved .progress-bar5 {
+  width: 80%;
+    background-color: #ffffff;
+  animation: progressAnimation5 6s;
+}
+ 
+@keyframes progressAnimation5 {
+  0% {
+    width: 5%;
+    background-color: #ff5608;
+  }
+  100% {
+    width: 80%;
+    background-color: #ffffff;
+  }
+}
+
+.progress-bar6 {
+  height: 30px;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+ 
+.progress-moved .progress-bar6 {
+  width: 90%;
+    background-color: #ffffff;
+  animation: progressAnimation6 6s;
+}
+ 
+@keyframes progressAnimation6 {
+  0% {
+    width: 5%;
+    background-color: #fbff08;
+  }
+  100% {
+    width: 90%;
+    background-color: #ffffff;
+  }
+}
+
+.progress-bar7 {
+  height: 30px;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+ 
+.progress-moved .progress-bar7 {
+  width: 70%;
+    background-color: #ffffff;
+  animation: progressAnimation7 6s;
+}
+ 
+@keyframes progressAnimation7 {
+  0% {
+    width: 5%;
+    background-color: #08ff1c;
+  }
+  100% {
+    width: 70%;
+    background-color: #ffffff;
+  }
+}
